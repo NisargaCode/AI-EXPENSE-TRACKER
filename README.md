@@ -26,10 +26,10 @@ Welcome to **AI-Expense-Tracker**, a smart personal finance tool that leverages 
    ```bash:disable-run
    git clone https://github.com/NisargaCode/AI-Expense-Tracker.git
    cd AI-Expense-Tracker
-```
+   
 2.**Install Dependencies**
 
-```
+
 **backend**
 ```bash
 cd backend
@@ -49,17 +49,31 @@ npm install
   PORT=5000
 ```
 4. **Run the Application**
+   
    **Start the backend:**
+   ```
    cd backend
    npm start
 
   **Start the frontend:**
+  ```
    cd ../frontend
    npm start
 Open http://localhost:3000
+```
 
+## Project Structure
+AI-Expense-Tracker/
+├── backend/          # Node.js backend (routes, services, models)
+├── frontend/         # React frontend (components, App.js)
+├── .env             # Environment variables
+├── .gitignore       # Ignored files
+└── README.md        # This file
 
-
+## Usage
+- Add transactions via the dashboard form.
+- Explore analytics, chat with AI.
+  
 
 
 

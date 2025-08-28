@@ -27,15 +27,23 @@ Welcome to **AI-Expense-Tracker**, a smart personal finance tool that leverages 
    git clone https://github.com/NisargaCode/AI-Expense-Tracker.git
    cd AI-Expense-Tracker
 ```
-2. **Install dependencies**
-  backend
-   ```bash:disable-run
-   cd backend
-   npm install
-```
-    
- frontend
-   ```bash:disable-run
-   cd frontend
-   npm start
-```
+2. Install Dependencies  
+
+**Backend**
+```bash
+cd backend
+npm install
+
+**Frontend**
+```bash
+cd frontend
+npm install
+
+3. Configure Environment Variables
+Create a .env file in the backend folder and add the following:
+GEMINI_API_KEY=your_gemini_api_key
+API_BASE_URL=http://localhost:5000/api
+MONGODB_URI=your_mongodb_connection_string
+PORT=5000
+
+

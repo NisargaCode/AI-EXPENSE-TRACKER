@@ -28,14 +28,14 @@ Welcome to **AI-Expense-Tracker**, a smart personal finance tool that leverages 
    cd AI-Expense-Tracker
 ```
 2. **Install dependencies**
-        **backend**
-   ```bash
+  backend
+   ```bash:disable-run
    cd backend
    npm install
 ```
     
-        **frontend**
-   ```bash
-   cd ../frontend
-  npm start
+ frontend
+   ```bash:disable-run
+   cd frontend
+   npm start
 ```

@@ -1,0 +1,69 @@
+# AI-Expense-Tracker
+
+Welcome to **AI-Expense-Tracker**, a smart personal finance tool that leverages AI to manage your expenses. Categorize transactions, gain insights, chat with your financial data, predict spending, and visualize analytics on an interactive dashboard.
+
+## Features
+- **AI Expense Categorization**: Auto-categorize expenses (e.g., Food, Bills) with confidence scores.
+- **Spending Insights**: Receive alerts and predictions on spending patterns.
+- **AI Chat**: Ask financial questions and get tailored advice.
+- **Spending Predictions**: Forecast future expenses.
+- **Dashboard**: View spend breakdowns and budgets via a donut chart.
+
+## Tech Stack
+- **Frontend**: React.js with Tailwind CSS.
+- **Backend**: Node.js, Express.js, Mongoose (MongoDB).
+- **AI**: Google Generative AI (Gemini-1.5-flash).
+- **Dependencies**: Axios, etc.
+
+## Prerequisites
+- Node.js (v14 or later)
+- MongoDB (local or remote)
+- Git
+
+## Installation
+
+1. Clone the Repository
+   
+   git clone https://github.com/NisargaCode/AI-EXPENSE-TRACKER.git
+   cd AI-EXPENSE-TRACKER
+
+2. Install Dependencies
+   -backend
+     cd backend
+     npm install
+
+  -frontend
+     cd frontend
+     npm install
+
+3. Configure Environment Variables
+
+  Create a .env file in the backend folder:
+  GEMINI_API_KEY=your_gemini_api_key
+  API_BASE_URL=http://localhost:5000/api
+  MONGODB_URI=your_mongodb_connection_string
+  PORT=5000
+
+4. Run the Application
+   Start the backend:
+   cd backend
+   npm start
+
+  Start the frontend:
+   cd ../frontend
+   npm start
+Open http://localhost:3000
+
+##Project Structure
+
+AI-Expense-Tracker/
+├── backend/          # Node.js backend (routes, services, models)
+├── frontend/         # React frontend (components, App.js)
+├── .env             # Environment variables
+├── .gitignore       # Ignored files
+└── README.md        # This file
+
+##Usage
+
+--Add transactions via the dashboard.
+--Explore analytics, chat with AI

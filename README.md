@@ -27,8 +27,7 @@ Welcome to **AI-Expense-Tracker**, a smart personal finance tool that leverages 
    git clone https://github.com/NisargaCode/AI-Expense-Tracker.git
    cd AI-Expense-Tracker
 ```
-
-2. **Install Dependencies**
+2.__Install DEpendencies__
 
 ```
 **backend**

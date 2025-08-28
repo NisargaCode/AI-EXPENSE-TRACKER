@@ -63,12 +63,8 @@ Open http://localhost:3000
 ```
 
 ## Project Structure
-AI-Expense-Tracker/
-├── backend/          # Node.js backend (routes, services, models)
-├── frontend/         # React frontend (components, App.js)
-├── .env             # Environment variables
-├── .gitignore       # Ignored files
-└── README.md        # This file
+<img width="878" height="205" alt="image" src="https://github.com/user-attachments/assets/be699dff-bf3c-4fbd-ad18-f1954f5c90d7" />
+
 
 ## Usage
 - Add transactions via the dashboard form.

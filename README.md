@@ -4,13 +4,13 @@ Welcome to **AI-Expense-Tracker**, a smart personal finance tool that leverages 
 
 ## Features
 - **AI Expense Categorization**: Auto-categorize expenses (e.g., Food, Bills) with confidence scores.
-- **Spending Insights**: Receive alerts and predictions on spending patterns.
+- **Spending Insights**: Receive insights and predictions on spending patterns.
 - **AI Chat**: Ask financial questions and get tailored advice.
 - **Spending Predictions**: Forecast future expenses.
 - **Dashboard**: View spend breakdowns and budgets via a donut chart.
 
 ## Tech Stack
-- **Frontend**: React.js with Tailwind CSS.
+- **Frontend**: React.js with CSS.
 - **Backend**: Node.js, Express.js, Mongoose (MongoDB).
 - **AI**: Google Generative AI (Gemini-1.5-flash).
 - **Dependencies**: Axios, etc.
@@ -22,48 +22,54 @@ Welcome to **AI-Expense-Tracker**, a smart personal finance tool that leverages 
 
 ## Installation
 
-1. Clone the Repository
+1. **Clone the Repository**
+   ```bash:disable-run
+   git clone https://github.com/NisargaCode/AI-Expense-Tracker.git
+   cd AI-Expense-Tracker
    
-   git clone https://github.com/NisargaCode/AI-EXPENSE-TRACKER.git
-   cd AI-EXPENSE-TRACKER
+2.**Install Dependencies**
 
-2. Install Dependencies
-   -backend
-     cd backend
-     npm install
 
-  -frontend
-     cd frontend
-     npm install
-
-3. Configure Environment Variables
-
+**backend**
+```bash
+cd backend
+npm install
+```
+**frontend**
+```bash
+cd frontend
+npm install
+```
+3. **Configure Environment Variables**
+```
   Create a .env file in the backend folder:
   GEMINI_API_KEY=your_gemini_api_key
   API_BASE_URL=http://localhost:5000/api
   MONGODB_URI=your_mongodb_connection_string
   PORT=5000
-
-4. Run the Application
-   Start the backend:
+```
+4. **Run the Application**
+   
+   **Start the backend:**
+   ```
    cd backend
    npm start
 
-  Start the frontend:
+  **Start the frontend:**
+  ```
    cd ../frontend
    npm start
 Open http://localhost:3000
+```
 
-##Project Structure
+## Project Structure
+<img width="878" height="205" alt="image" src="https://github.com/user-attachments/assets/be699dff-bf3c-4fbd-ad18-f1954f5c90d7" />
 
-AI-Expense-Tracker/
-├── backend/          # Node.js backend (routes, services, models)
-├── frontend/         # React frontend (components, App.js)
-├── .env             # Environment variables
-├── .gitignore       # Ignored files
-└── README.md        # This file
 
-##Usage
+## Usage
+- Add transactions via the dashboard form.
+- Explore analytics, chat with AI.
+  
 
---Add transactions via the dashboard.
---Explore analytics, chat with AI
+
+
